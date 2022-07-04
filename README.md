@@ -9,6 +9,13 @@ Vosk binding using libloading
 ./bin/download-model.sh # TODO
 ```
 
+# Run
+
+```
+cargo build
+LD_LIBRARY_PATH=./lib/vosk cargo
+```
+
 # Generate Rust Binding for Vosk
 
 ```
