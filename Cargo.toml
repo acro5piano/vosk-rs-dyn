@@ -9,6 +9,8 @@ edition = "2021"
 libloading = "0.7"
 vosk = "0.1.0"
 portaudio-rs = "0.3.2"
+cpal = "0.13.5"
+dasp = "0.11.0"
 
 [build-dependencies]
 bindgen = "0.53.1"
